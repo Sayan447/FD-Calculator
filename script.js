@@ -21,7 +21,7 @@ function calMaturityamount(){
 
 
     // perform the calculation
-    const maturityamount = principle * (principle * interestRate * Tenure) / 100;
+    const maturityamount = principle + (principle * interestRate * Tenure) / 100;
 
 
     // display the result
